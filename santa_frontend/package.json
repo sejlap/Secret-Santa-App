@@ -1,0 +1,53 @@
+{
+  "name": "search_tool",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "engines": {
+    "npm": "6.14.4",
+    "node": "12.3.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-alert": "^7.0.2",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
